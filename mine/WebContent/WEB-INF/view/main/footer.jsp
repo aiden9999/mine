@@ -6,4 +6,7 @@
 	<div class="logo">
 		<img src="/img/logo.png"/>
 	</div>
+	<div class="footer_txt">
+		copyright &copy; <span>Aiden</span> All Rights reserved
+	</div>
 </div>

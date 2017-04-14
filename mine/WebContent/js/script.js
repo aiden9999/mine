@@ -1,4 +1,4 @@
-// 디데이
+// d-day
 $(document).ready( function() {
 	setViewTime = function (){ //함수로 만들어 준다.
 		//아래 부분 입력창에서 가져오지 않고 그냥 셋팅해도 된다.
@@ -47,4 +47,17 @@ $(document).ready(function(){
 			topNum = 0;
 		}
 	});
+});
+
+// main slide
+$(document).ready(function(){
+	var slideNum = 1;
+	setInterval(function(){
+		$("#main_slide"+slideNum).fadeOut(500);
+		slideNum++;
+		if(slideNum==4){
+			slideNum = 1;
+		}
+		$("#main_slide"+slideNum).fadeIn(500);
+	}, 3000);
 });
