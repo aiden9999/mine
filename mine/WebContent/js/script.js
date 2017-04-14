@@ -43,7 +43,7 @@ $(document).ready(function(){
 			$(".login_container").css("margin-right", "0");
 			topNum++;
 		} else {
-			$(".login_container").css("margin-right", "-425px");
+			$(".login_container").css("margin-right", "-410px");
 			topNum = 0;
 		}
 	});

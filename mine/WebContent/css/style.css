@@ -17,15 +17,15 @@ li { width: 15.5%; display: inline-block; cursor: pointer; text-align: center; }
 
 .top_wrap { font-size: 14px; background-color: #ffe1f3; overflow: hidden; padding: 0 10px; }
 .top_wrap::after { content: ''; clear: both; display: block; }
-.top_wrap .login_container { padding: 7px 0; float: right; margin-right: -425px; transition: all 0.5s; }
+.top_wrap .login_container { padding: 7px 0; float: right; margin-right: -410px; transition: all 0.5s; }
 .top_wrap .login_txt { display: inline-block; }
 .top_wrap .login_txt span { cursor: pointer; }
 .top_wrap .login_txt span:hover { color: red; }
-.top_wrap .login_wrap { width: 425px; margin-left: 10px; display: inline-block; }
-.top_wrap .login_wrap .txt_wrap { width: 130px; margin: auto 10px; display: inline-block; }
+.top_wrap .login_wrap { margin-left: 10px; display: inline-block; }
+.top_wrap .login_wrap .txt_wrap { margin: auto 10px; display: inline-block; }
 .top_wrap .login_wrap .txt { display: inline-block; }
 .top_wrap .login_wrap .txt_wrap input { width: 100px; height: 25px; padding: 10px; }
-.top_wrap .login_wrap .btn_wrap { width: 110px; display: inline-block; }
+.top_wrap .login_wrap .btn_wrap { display: inline-block; }
 .top_wrap .login_wrap .btn_wrap .btn { width: 40px; margin: auto 5px; padding: 5px 0; border: 1px solid black; border-radius: 5px; display: inline-block; text-align: center; }
 .menu_container { padding: 0 10px; }
 .logo_wrap { width: 130px; padding-top: 15px; display: inline-block; }
@@ -49,7 +49,6 @@ li { width: 15.5%; display: inline-block; cursor: pointer; text-align: center; }
 .board_section .board_container .inner_wrap .title_wrap { font-size: 18px; letter-spacing: 5px; padding-bottom: 5px; }
 .board_section .board_container .inner_wrap .title_wrap .more { float: right; font-size: 14px; cursor: pointer; }
 .board_section .board_container .inner_wrap .board_wrap { border: 1px solid black; border-radius: 10px; }
-/* .board_section .board_container .inner_wrap .board_wrap2 { height: 345px; } */
 .board_section .board_container .inner_wrap .board_wrap .board_txt { font-size: 14px; padding: 8px; }
 .board_section .board_container .inner_wrap .board_wrap .board_txt span { cursor: pointer; }
 .board_section .board_container .inner_wrap .board_wrap .board_txt2 { padding: 7.4px; }
@@ -64,4 +63,8 @@ li { width: 15.5%; display: inline-block; cursor: pointer; text-align: center; }
 	.menu_wrap { width: 100%; float: none; font-size: 14px; text-align: center; padding-top: 10px; }
 	.slide_section .slide_wrap { width: 100%; }
 	.slide_section .slide_wrap .slide { width: 100%; }
+	.top_wrap .login_container { margin-right: -315px; }
+	.top_wrap .login_wrap .txt_wrap { margin: 0; }
+	.top_wrap .login_wrap .txt_wrap input { width: 75px; }
+	.top_wrap .login_wrap .bt_wrap .btn { width: 35px; }
 }
