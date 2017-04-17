@@ -39,11 +39,16 @@ $(document).ready( function() {
 $(document).ready(function(){
 	var topNum = 0;
 	$(".login_txt").click(function(){
+		var width = $(window).width();
 		if(topNum==0){
 			$(".login_container").css("margin-right", "0");
 			topNum++;
 		} else {
-			$(".login_container").css("margin-right", "-410px");
+			if(width<750){
+				$(".login_container").css("margin-right", "-315px");
+			} else {
+				$(".login_container").css("margin-right", "-410px");
+			}
 			topNum = 0;
 		}
 	});
@@ -60,4 +65,8 @@ $(document).ready(function(){
 		}
 		$("#main_slide"+slideNum).fadeIn(500);
 	}, 3000);
+});
+
+$(document).ready(function(){
+	$(".list_wrap").css("padding-left", 0);
 });

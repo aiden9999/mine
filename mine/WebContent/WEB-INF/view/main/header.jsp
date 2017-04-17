@@ -23,7 +23,7 @@
 </div>
 <div class="menu_container">
 	<div class="logo_wrap">
-		<img src="/img/logo.png"/>
+		<img src="/img/logo.png" onclick="location.href='/'"/>
 	</div>
 	<div class="menu_wrap">
 		<ul>
@@ -31,7 +31,7 @@
 			<li>Travel</li>
 			<li>Play</li>
 			<li>Picture</li>
-			<li>Diary</li>
+			<li onclick="location.href='/diary'">Diary</li>
 			<li>Visitors</li>
 		</ul>
 	</div>

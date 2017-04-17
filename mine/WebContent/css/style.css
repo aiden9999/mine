@@ -29,7 +29,7 @@ li { width: 15.5%; display: inline-block; cursor: pointer; text-align: center; }
 .top_wrap .login_wrap .btn_wrap .btn { width: 40px; margin: auto 5px; padding: 5px 0; border: 1px solid black; border-radius: 5px; display: inline-block; text-align: center; }
 .menu_container { padding: 0 10px; }
 .logo_wrap { width: 130px; padding-top: 15px; display: inline-block; }
-.logo_wrap img { width: 100%; }
+.logo_wrap img { width: 100%; cursor: pointer; }
 .menu_wrap { width: 500px; float: right; font-size: 20px; padding-top: 35px; }
 
 .footer_logo { text-align: center; padding-top: 30px; }
@@ -52,6 +52,30 @@ li { width: 15.5%; display: inline-block; cursor: pointer; text-align: center; }
 .board_section .board_container .inner_wrap .board_wrap .board_txt { font-size: 14px; padding: 8px; }
 .board_section .board_container .inner_wrap .board_wrap .board_txt span { cursor: pointer; }
 .board_section .board_container .inner_wrap .board_wrap .board_txt2 { padding: 7.4px; }
+
+.board_category_section { margin: 30px auto; width: 100%; position: relative; }
+.board_category_section .inner_container { width: 90%; text-align: center; margin: 0 auto; }
+.board_category_section .inner_container .diary_img { width: 100%; }
+.board_category_section .inner_container .diary_img img { width: 100%; }
+.board_category_section .inner_container .board_container { width: 80%; top: 10%; left: 10%; position: absolute; }
+.board_category_section .inner_container .board_container .wrap_container { width: 50%; display: inline-block; vertical-align: top; }
+.board_category_section .inner_container .board_container .wrap_container .select_wrap { width: 90%; text-align: left; }
+.board_category_section .inner_container .board_container .wrap_container .select_wrap .folder { display: inline-block; }
+.board_category_section .inner_container .board_container .wrap_container .select_wrap .folder select { width: 120px; padding: 5px 0 5px 10px; border-radius: 5px; }
+.board_category_section .inner_container .board_container .wrap_container .select_wrap .date { display: inline-block; float: right; }
+.board_category_section .inner_container .board_container .wrap_container .select_wrap .date select { width: 70px; padding: 5px 0 5px 10px; border-radius: 5px; }
+.board_category_section .inner_container .board_container .wrap_container .select_wrap .date span { font-size: 16px; margin: 0 5px; }
+.board_category_section .inner_container .board_container .wrap_container .list_wrap { width: 90%; height: 490px; overflow: hidden; margin-top: 20px; }
+.board_category_section .inner_container .board_container .wrap_container .list_wrap .list { width: 105%; height: 490px; overflow-y: auto; }
+.board_category_section .inner_container .board_container .wrap_container .list_wrap .list .txt { font-size: 18px; }
+.board_category_section .inner_container .board_container .wrap_container .list_wrap .list .txt span { cursor: pointer; }
+.board_category_section .inner_container .board_container .wrap_container .title_wrap { width: 90%; margin: 0 auto; }
+.board_category_section .inner_container .board_container .wrap_container .title_wrap .title { width: 70%; display: inline-block; font-size: 18px; text-align: left; }
+.board_category_section .inner_container .board_container .wrap_container .title_wrap .day { display: inline-block; font-size: 18px; text-align: center; }
+.board_category_section .inner_container .board_container .wrap_container .content_container { width: 85%; margin: 10px 0 10px 40px; }
+.board_category_section .inner_container .board_container .wrap_container .content_container .content_wrap { width: 95%; height: 510px; overflow: hidden; }
+.board_category_section .inner_container .board_container .wrap_container .content_container .content { width: 105%; height: 495px; margin: 10px; font-size: 16px; overflow-y: auto; text-align: left; }
+.board_category_section .inner_container .board_container .wrap_container .content_container .content .txt { border-bottom: 1px solid rgba(88, 88, 88, 0.27); padding: 2px 0; }
 
 
 @media all and (max-width: 1000px) { 
